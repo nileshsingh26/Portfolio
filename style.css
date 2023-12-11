@@ -1,0 +1,224 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200;300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color: grey;
+    width:250px;
+
+    
+}
+
+.sidebar nav{
+    padding:25px;
+    
+    
+}
+ 
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    background-color:bisque;
+    width:90vw;
+    padding: 23px;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /* background-color: red; */
+    width: 80vw;
+    height: 45vh;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img{
+    height: 43vh;
+    margin: 0px;
+    width: 20vw;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Noto Serif', serif;
+}
+
+.hello{
+    font-size: 40px;
+
+}
+
+.name{
+    font-size: 60px;
+}
+
+.about{
+    font-size: 35px;
+
+}
+
+.button button{
+    padding: 5px;
+    border-radius: 28px;
+    color: white;
+    background-color: lightskyblue;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 19px 3px;
+    cursor: pointer;
+
+}
+
+.button button:hover{
+    background-color: whitesmoke;
+    color: dodgerblue;
+}
+
+.moreabout{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.contactform h1{
+    padding-top: 8px;
+    padding-left: 0px;
+}
+.contactform{
+   
+    font-family: 'Noto Serif', serif;
+    padding: 0px 109px;
+    padding-top: 176px;
+    
+}
+
+.contactform from div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform from div input{
+    padding: 3px;
+    margin: 16px 0;
+    border-radius: 5px;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 5 2px;
+
+}
+
+.form-check{
+    flex-direction: row;
+
+}
+
+#form-check input{
+    width: 20px;
+    margin: 3px 0;
+}
+
+#exampleInputEnquiry{
+    width: 300px;
+    
+}
+
+.icon{
+    display: flex;
+    padding-top: 10px;
+    margin: 10px;
+    
+}
+
+.blogcontainer{
+    height: 100vh;
+
+}
+
+.blogitem{
+    margin: 25px;
+}
+
+h1{
+    margin: 20px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skillcontainer{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 988px)
+{
+*{
+    backgrounf-color:rgb(214, 109, 109);
+
+}
+.sidebar{
+    transform: translate(px 0px);
+    /* position: absolute; */
+}
+} 
+
+.card{
+    background-color:rgb(211, 127, 127);
+    border: 3px solid black;
+    
+    
+}
+
+.card-img-top{
+    width:99%;
+    height:100%;
+    border: 2px solid black;
+}
+
+.project_lst{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.button{
+    padding: 5px;
+    border-radius: 28px;
+    color: white;
+   
+    font-weight: 600;
+    font-size: 18px;
+    margin: 19px 3px;
+    cursor: pointer;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+    
+}
+
+.main{
+    height: 100vh;
+}
+
